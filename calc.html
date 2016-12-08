@@ -1,0 +1,89 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="cs.js"></script>
+</head><style type="text/css">
+*{
+	font-size: 25px;
+	padding:7px;
+}
+	#main{
+		background: #49a1bd;
+		border-radius: 20px;
+		box-shadow: 20px 20px 30px;
+		border:none;
+		padding: 15px;
+		text-align: center;
+		width:500px;
+		height: 400px;
+	}
+	
+	button{
+		border-radius: 5px;
+		border:none;
+		box-shadow: 3px 3px 3px;
+		background-color: white;
+		width: 100px;
+		height: 50px
+
+	}
+	input{
+		border:none;
+		border-radius: 10px;
+		background-color: white;
+		box-shadow: 5px 5px 5px;
+		height: 50px;
+		width: 100%;
+	}
+	.operand{
+		padding-top: 5px;
+			background-color: #ff6262;
+	}
+	.eva{
+
+		background-color: #6dff62;
+	}
+	.clean{
+		background-color: #f5ee4e;
+	}
+#add{
+
+	width: 200px;
+}
+#calculate{
+	width: 200px;
+}
+</style>
+<div id="main">
+     <input id="Result" class="input" />
+    <div id="keys">
+        <div id="FirstRow">
+            <button id="ClearAll" type="reset" value="CE" class="clean">CE</button>
+            <button id="Clear" type="reset" value="C" class="clean">C</button>
+               <button id="Add" type="button" value="+" class=" Show operators operand">+</button>
+        </div>
+        <div id="SecondRow">
+            <button id="One" type="button" value="1" class="Show sho1">1</button>
+            <button id="Two" type="button" value="2" class="Show sho1">2</button>
+            <button id="Three" type="button" value="3" class="Show sho1">3</button>
+            <button id="Sub" type="button" value="-" class="Show operators operand">-</button>
+        </div>
+        <div id="ThirdRow">
+            <button id="Four" type="button" value="4" class="Show sho1">4</button>
+            <button id="Five" type="button" value="5" class="Show sho1">5</button>
+            <button id="six" type="button" value="6" class="Show sho1">6</button>
+            <button id="Mul" type="button" value="*" class=" Show operators operand">*</button>
+        </div>
+        <div id="FourthRow">
+            <button id="Seven" type="button" value="7" class="Show sho1">7</button>
+            <button id="Eight" type="button" value="8" class="Show sho1">8</button>
+            <button id="Nine" type="button" value="9" class="Show sho1">9</button>
+            <button id="Divide" type="button" value="/" class="Show operators operand">/</button>
+        </div>
+        <div id="FifthRow">
+            <button id="Zero" type="button" value="0" class="Show sho1">0</button>
+            <button id="Dot" type="button" value="." class="Show sho1"><b>.</b></button>
+            <button id="Calculate" type="button" value="=" class="eva operand ">=</button>
+        </div>
+    </div>
+    </div<br/>
+    
